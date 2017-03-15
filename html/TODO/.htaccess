@@ -1,0 +1,4 @@
+AuthUserFile /home/pi/bin/todoliset_web_access
+AuthName "You need the right key !!!"
+AuthType Basic
+Require valid-user
