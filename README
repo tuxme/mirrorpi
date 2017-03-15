@@ -56,14 +56,20 @@ cat create_env.sql | mysql -uUSER -pPASSWD JARVIS
 ```
 echo 'display_rotate=1' | sudo tee -a /boot/config.txt
 ```
+7/ Create a sym link for midori
+-------------------------------
+``` 
+sudo ln -s /usr/bin/midori /usr/bin/mirrormidori              
 
-7/ restart
+``` 
+
+8/ restart
 
 ```
 sudo reboot
 ```
 
-8/ The size of each block is in the index.php if their is a probleme
+9/ The size of each block is in the index.php if their is a probleme
 
 
 Ex : 500 
